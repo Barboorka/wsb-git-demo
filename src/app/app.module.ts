@@ -7,12 +7,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StartComponent } from './start/start.component';
 import { FormsModule } from '@angular/forms';
 import { OddzialyComponent } from './oddzialy/oddzialy.component';
+import { FormularzKontaktowyComponent } from './formularz-kontaktowy/formularz-kontaktowy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartComponent,
     OddzialyComponent
+    FormularzKontaktowyComponent
   ],
   imports: [
     BrowserModule,
