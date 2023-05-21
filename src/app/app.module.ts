@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StartComponent } from './start/start.component';
 import { FormsModule } from '@angular/forms';
+import { FormularzKontaktowyComponent } from './formularz-kontaktowy/formularz-kontaktowy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StartComponent
+    StartComponent,
+    FormularzKontaktowyComponent
   ],
   imports: [
     BrowserModule,
